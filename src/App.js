@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
-import CardFunc from "./components/Card/card";
+import Hi from "./components/Hi/hi";
+import Card from "./components/Card/card";
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Goodbye World</h1>
-      <CardFunc/>
+      <Hi/>
+      <Card/>
     </div>
   );
 }

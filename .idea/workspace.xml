@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a267b1b-6048-4e76-af37-c7400d0f545f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hi/hi.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hi/hi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/getData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/getData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +38,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../React" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Hi" />
     <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Files\Learning\prfct-fit\src\components\Hi" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -50,7 +60,7 @@
       <workItem from="1584262909922" duration="8000" />
       <workItem from="1584263012073" duration="10000" />
       <workItem from="1584263022779" duration="6950000" />
-      <workItem from="1584270447276" duration="17384000" />
+      <workItem from="1584270447276" duration="27925000" />
     </task>
     <servers />
   </component>
@@ -58,10 +68,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1220" y="273" key="FileChooserDialogImpl" timestamp="1584299204017">
+    <state x="1220" y="273" key="FileChooserDialogImpl" timestamp="1584305361443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1220" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584299204017" />
+    <state x="1220" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584305361443" />
     <state x="1096" y="236" key="run.anything.popup" timestamp="1584286975082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
