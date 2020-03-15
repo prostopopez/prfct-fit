@@ -1,5 +1,5 @@
 import React from "react";
-import * as getData from "../../getData";
+import * as GoodDick from "../../getData";
 import './card.css';
 
 const CardFunc = () => {
