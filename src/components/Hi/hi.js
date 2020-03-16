@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import './hi.css';
+import './hi.less';
 
 class Hi extends Component{
 

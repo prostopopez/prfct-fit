@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import './card.css';
+import './card.less';
 
 class Card extends Component{
 
@@ -27,12 +27,12 @@ class Card extends Component{
                 {
                     this.state.data ?
                         this.state.data.map((item) =>
-                            <div>
+                            <article>
                                 <img src={item.img} alt=""/>
                                 <h3>{item.name}</h3>
                                 <button value={item.isNew}>New</button>
                                 <p>{item.description}</p>
-                            </div>
+                            </article>
                         ) : <h3> Fetching...</h3>
                 }
             </div>
