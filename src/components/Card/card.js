@@ -28,10 +28,10 @@ class Card extends Component{
                     this.state.data ?
                         this.state.data.map((item) =>
                             <article>
-                                <img src={item.img} alt=""/>
-                                <h3>{item.name}</h3>
-                                <button value={item.isNew}>New</button>
-                                <p>{item.description}</p>
+                                <img className="newsImage" src={item.img} alt=""/>
+                                <h3 className="semiBold">{item.name}</h3>
+                                <button className="newButton" value={item.isNew}>New</button>
+                                <p className="body3">{item.description}</p>
                             </article>
                         ) : <h3> Fetching...</h3>
                 }

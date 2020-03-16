@@ -1,0 +1,7 @@
+.greeting{
+    margin: 0 0 32px 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--descriptions);
+}

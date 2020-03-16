@@ -1,12 +1,23 @@
 /*
+Fonts
+ */
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+    html { font-family: 'Inter var', sans-serif; }
+}
+/*
 Templates
  */
 :root{
   --White: #FFFFFF;
   --Main: #1890FF;
 }
+[data-theme="Default"]{
+  --default-gray: #C4C4C4;
+}
 [data-theme="Template_1"] {
-  --headings: #0C1014;
+  --headings: #bdffff;
   --descriptions: #515759;
   --footer: #B1BCC0;
   --divider: #DFE1E4;
@@ -14,7 +25,9 @@ Templates
 [data-theme="Template_2"] {
   --header: #444444;
   --background: #F4F4F4;
-  --button-gradient: linear-gradient(180deg, #47AEFF 0%, #0372CB 100%), #1890FF;;
+  --button-gradient: linear-gradient(180deg, #47AEFF 0%, #0372CB 100%), #1890FF;
+  --white_card_shadow: #C4C4C4;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.01);
 }
 [data-theme="Template_3"] {
   --main_color: #51ACFF;
@@ -37,32 +50,93 @@ Main Styles
  */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
+  font-family: "Inter", "sans-serif";
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
+#root{
+  position: relative;
+  max-width: 680px;
+  margin: 0 auto;
+  background-color: #FBFBFB;
+}
+.App {
+  padding: 48px 60px 58px 60px;
+  margin: 0;
+  text-align: center;
+}
+.app-header {
+  color: white;
+  margin: 0 0 32px 0;
+}
+.app-main {
+  text-align: center;
+}
+.app-footer {
+    text-align: left;
+}
+article{
+  text-align: left;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+}
+h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+}
+h3.bold{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+h3.semiBold{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+}
+.body1{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+.body2{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+p.body3{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+p.footerText{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--footer_text);
+}
+/*
+Additional Styles
+ */
+h1, h2, h3, .body1, .body2, .body3, .footerText{
+  color: var(--default-gray);
 }
 a{
   color: var(--Main);
   text-decoration: none;
 }
-/*
-Additional Styles
- */
-.App {
-  background-color: #7dff49;
-  text-align: center;
-
-  display: flex;
-  flex-direction: column;
+.divider{
+    color: var(--divider);
+    margin: 0 0 16px 0;
 }
-
-.app-header {
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footerText span{
+    display: block;
 }

@@ -1,0 +1,38 @@
+article {
+    margin-bottom: 56px;
+}
+.newsImage{
+    display: block;
+    margin: 0 auto 24px;
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+}
+h3.semiBold{
+    display: inline-block;
+    margin: 0;
+}
+.newButton[value="true"]{
+    margin-left: 12px;
+    background: transparent;
+    display: inline-block;
+    width: 64px;
+    height: 24px;
+    color: var(--Main);
+    border: 1px solid var(--Main);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    padding: 0 3.5px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+}
+.newButton[value="false"]{
+    visibility: hidden;
+}
+
+.body3{
+    margin: 16px 0 0;
+}

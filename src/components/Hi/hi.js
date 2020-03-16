@@ -27,7 +27,7 @@ class Hi extends Component{
                 {
                     this.state.data ?
                         <div>
-                            <p>Hi, {this.state.data.name} ! Here’s your weekly updates &#128064;</p>
+                            <p className="greeting">Hi, {this.state.data.name} ! Here’s your weekly updates &#128064;</p>
                         </div>
                         : <h3> Fetching...</h3>
                 }

@@ -8,24 +8,32 @@ import logo from '../src/img/Logo.svg';
 
 function App() {
   return (
-    <div className="App" data-theme="Template_1">
-        <header className="app-header">
+    <div className="App">
+        <header className="app-header" data-theme="Template_1">
             <img
                 className="app-logo"
                 src={logo}
                 alt="PRFCT FIT"
             />
         </header>
-        <Hi/>
-        <Card/>
-        <footer className="app-footer">
-            <p>This email was sent to you as a registered member of prfcfit.com.
-                To update your emails preferences <a href="#">click here</a>.
+        <main className="app-main" data-theme="Template_1">
+            <Hi/>
+            <Card/>
+        </main>
+        <footer className="app-footer" data-theme="Template_5">
+            <hr className="divider"/>
+            <p className="footerText">
+                <span>
+                    This email was sent to you as a registered member of prfcfit.com.
+                    To update your emails preferences <a href="#">click here</a>.
+                </span>
+                <span>
+                    Use of the service and website is subject to our <a href="#">Terms
+                    of Use</a> and <a href="#">Privacy Statement</a>
+                </span>
+                <br/>
+                <span>&copy; {new Date().getFullYear()} PRFCT FIT. All rights reserved.</span>
             </p>
-            <p>Use of the service and website is subject to our <a href="#">Terms
-                of Use</a> and <a href="#">Privacy Statement</a>
-            </p>
-            <small>&copy; {new Date().getFullYear()} PRFCT FIT. All rights reserved.</small>
         </footer>
     </div>
   );
