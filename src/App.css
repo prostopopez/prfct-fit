@@ -1,7 +1,40 @@
+/*
+Templates
+ */
 :root{
   --White: #FFFFFF;
   --Main: #1890FF;
 }
+[data-theme="Template_1"] {
+  --headings: #0C1014;
+  --descriptions: #515759;
+  --footer: #B1BCC0;
+  --divider: #DFE1E4;
+}
+[data-theme="Template_2"] {
+  --header: #444444;
+  --background: #F4F4F4;
+  --button-gradient: linear-gradient(180deg, #47AEFF 0%, #0372CB 100%), #1890FF;;
+}
+[data-theme="Template_3"] {
+  --main_color: #51ACFF;
+  --second_color: linear-gradient(180deg, #FDA472 0%, #F7B78F 100%), #EDBB99;
+  --button_color: linear-gradient(180deg, #51ACFF 0%, #1772C6 100%), #1890FF;
+  --dark_header: #313131;
+  --vertical_divider: #7D7D7D;
+  --horizontal_divider: radial-gradient(6785.55% 865438.87% at 48.44% 99.92%, #414141 0%, rgba(33, 33, 34, 0) 100%);
+}
+[data-theme="Template_4"] {
+  --voucher_code_background: #F1F1F1;
+  --footer_content: #B6B6B6;
+}
+[data-theme="Template_5"] {
+  --divider: #D6D7D9;
+  --footer_text: #949494;
+}
+/*
+Main Styles
+ */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -18,7 +51,9 @@ a{
   color: var(--Main);
   text-decoration: none;
 }
-
+/*
+Additional Styles
+ */
 .App {
   background-color: #7dff49;
   text-align: center;
@@ -26,9 +61,7 @@ a{
   display: flex;
   flex-direction: column;
 }
-.app-logo {
-  pointer-events: none;
-}
+
 .app-header {
   font-size: calc(10px + 2vmin);
   color: white;

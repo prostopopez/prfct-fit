@@ -1,14 +1,20 @@
 import React from 'react';
 import './App.css';
+
 import Hi from "./components/Hi/hi";
 import Card from "./components/Card/card";
+import logo from '../src/img/Logo.svg';
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" data-theme="Template_1">
         <header className="app-header">
-            <img src="./img/shopping-bag.svg" alt="PRFCT FIT" className="app-logo"/>
+            <img
+                className="app-logo"
+                src={logo}
+                alt="PRFCT FIT"
+            />
         </header>
         <Hi/>
         <Card/>
