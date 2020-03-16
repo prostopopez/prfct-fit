@@ -35,4 +35,5 @@ h3.semiBold{
 
 .body3{
     margin: 16px 0 0;
+    color: var(--descriptions);
 }

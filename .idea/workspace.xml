@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5a267b1b-6048-4e76-af37-c7400d0f545f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hi/hi.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hi/hi.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hi/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hi/hi.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +60,7 @@
       <workItem from="1584262909922" duration="8000" />
       <workItem from="1584263012073" duration="10000" />
       <workItem from="1584263022779" duration="6950000" />
-      <workItem from="1584270447276" duration="54350000" />
+      <workItem from="1584270447276" duration="59272000" />
     </task>
     <servers />
   </component>
