@@ -1,0 +1,122 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
+:root {
+    --White: #FFFFFF;
+    --Main: #1890FF;
+    --descriptions: #515759;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", "sans-serif";
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #FBFBFB;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#root {
+    position: relative;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.app {
+    width: 100%;
+    max-width: 414px;
+    margin: 0;
+    text-align: center;
+}
+
+.appHeader {
+    color: white;
+    margin: 0 0 32px 0;
+}
+
+.appMain {
+    text-align: center;
+}
+
+.appFooter {
+    text-align: left;
+}
+
+article {
+    text-align: left;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+h3.bold {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+h3.semiBold {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+}
+
+p.body3 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+p.footerText {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #949494
+}
+
+/*
+Additional Styles
+ */
+h1, h2, h3, .footerText {
+    color: var(--default-gray);
+}
+
+a {
+    color: var(--Main);
+    text-decoration: none;
+}
+
+.divider {
+    color: var(--divider);
+    margin: 0 0 16px 0;
+}
+
+.footerText span {
+    display: block;
+}
+
+/*
+media
+ */
