@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.less';
+import './App.css';
 import Hi from "./components/Hi/hi";
 import Card from "./components/Card/card";
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
         <header className="app-header">
-            <img src="some/path" alt="PRFCT FIT" className="app-logo"/>
+            <img src="./img/shopping-bag.svg" alt="PRFCT FIT" className="app-logo"/>
         </header>
         <Hi/>
         <Card/>
